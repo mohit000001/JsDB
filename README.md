@@ -28,6 +28,8 @@ Important Notes :
    - use "AND", "OR" to make a conditional statement. it should be a proper conditional statement.
    - example : "id=146 AND name=tonny OR age=14".
    
+@ Following are the Methods to perform actions in database.
+
 IntailizeJsDB() : 
  - To create a new instance of JsDB. this function returns new instance of JsDB.
 
