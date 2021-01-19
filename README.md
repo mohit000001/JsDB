@@ -8,11 +8,11 @@
   
  * Like sql user can create table, delete table, and insert, select, update, delete data in table.
  
- *It also allows user to perform selete, update, delete, operations based on condtions simply like sql.
+ * It also allows user to perform selete, update, delete, operations based on condtions simply like sql.
  
- *User just need to call methods with all vaild parameters.
+ * User just need to call methods with all vaild parameters.
 
- *It Also has error handling system which perfectly checks all parameters passed to a particular method. 
+ * It Also has error handling system which perfectly checks all parameters passed to a particular method. 
 
 # API Documentation :
 
@@ -24,9 +24,9 @@ Important Notes :
  
  * When passing Field Names and Field Values. they should be of same lenght.
  
- * Condition : Should be a string.(optional)
-   use "AND", "OR" to make a conditional statement. it should be a proper conditional statement.
-   example : "id=146 AND name=tonny OR age=14".
+ * Condition : Should be a string (optional).
+   - use "AND", "OR" to make a conditional statement. it should be a proper conditional statement.
+   - example : "id=146 AND name=tonny OR age=14".
    
 IntailizeJsDB() : 
 To create a new instance of JsDB. this function returns new instance of JsDB.
