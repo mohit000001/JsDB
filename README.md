@@ -2,12 +2,17 @@
 
 # Introduction : 
 
-JsDB is simple javascript database.which allows to a user to create a client side database.
-It a sql type database who follow javascript style. It saves data in tabular form which consist of fields.
-Like sql user can create table, delete table, and insert, select, update, delete data in table.
-It also allows user to perform selete, update, delete, operations based on condtions simply like sql.
-User just need to call methods with all vaild parameters.
-It Also has error handling system which perfectly checks all parameters passed to a particular method. 
+ * JsDB is simple javascript database.which allows to a user to create a client side database.
+ 
+ * It a sql type database who follow javascript style. It saves data in tabular form which consist of fields.
+  
+ * Like sql user can create table, delete table, and insert, select, update, delete data in table.
+ 
+ *It also allows user to perform selete, update, delete, operations based on condtions simply like sql.
+ 
+ *User just need to call methods with all vaild parameters.
+
+ *It Also has error handling system which perfectly checks all parameters passed to a particular method. 
 
 # API Documentation :
 
@@ -19,24 +24,31 @@ Important Notes :
  
  * When passing Field Names and Field Values. they should be of same lenght.
  
- * Condition : Should be a string.
+ * Condition : Should be a string.(optional)
    use "AND", "OR" to make a conditional statement. it should be a proper conditional statement.
    example : "id=146 AND name=tonny OR age=14".
    
 IntailizeJsDB() : 
 To create a new instance of JsDB. this function returns new instance of JsDB.
 
-CreateTable(p1, p2) :  p1 - Table Name [String], p2 = Fields Name[Array].
+CreateTable() : 
+Parameters  = p1 - Table Name [String], p2 = Fields Name[Array].
 
-DeleteTable(p1) : p1 - Table Name [String].
+DeleteTable() :
+Parameters  = p1 - Table Name [String].
 
-Insert(p1, p2, p3) : p1 - Table Name [String], p2 - Fields Name[Array], p2  - Fields Values[Array].
+Insert() :
+Parameters  = p1 - Table Name [String], p2 - Fields Name[Array], p2  - Fields Values[Array].
 
-Select(p1, p2 , p3) : p1 - Table Name [String], p2 - Fields Name[Array], p3 - Condtions[string].
+Select() : 
+Parameters  = p1 - Table Name [String], p2 - Fields Name[Array], p3 - Condtions[string](optional).
 
-Update(p1, p2 , p3, p4) : p1 - Table Name [String], p2 - Fields Name[Array], p3 - Fields Values[Array], p4 - Condtions[string].
+Update() : 
+Parameters  = p1 - Table Name [String], p2 - Fields Name[Array], p3 - Fields Values[Array], p4 - Condtions[string](optional).
 
-Delete(p1, p2) : p1 - Table Name [String], p2 - Condtions[string].
+Delete() :
+Note - if you call this method without Condition the entire table data will be deleted.
+Parameters  = p1 - Table Name [String], p2 - Condtions[string](optional).
 
 # Usages : 
 
