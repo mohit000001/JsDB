@@ -1,0 +1,2 @@
+# JsDB
+JsDB is simple javascript database.which allows to a user to create a client side database. It a sql type database who follow javascript style. It saves data in tabular form which consist of fields. Like sql user can create table, delete table, and insert, select, update, delete data in table. It also allows user to perform selete, update, delete, operations based on condtions simply like sql. User just need to call methods with all vaild parameters. It Also has error handling system which perfectly checks all parameters passed to a particular method. 
