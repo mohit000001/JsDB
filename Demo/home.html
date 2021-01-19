@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head> <title>JsDB Demo</title>
+<script src="JsDB.js"></script>
+<script src="index.js"></script> 
+</head>
+<body>
+<style>
+.AddDetails{
+ background-color : rgb(100,100,100);
+ color : rgb(250,250,250);
+ padding : 20px;
+ width : 300px;
+ height : 250px;
+ display : inline-block;
+ position :relative;
+ top: -16px;
+}
+
+.ShowDetails{
+display : inline-block;
+ margin-top : 20px;
+ background-color : rgb(100,100,100);
+ color : rgb(250,250,250);
+ padding : 20px;
+ width : 300px;
+ height : 250px;
+ overflow : auto;
+}
+.Update{
+display : inline-block;
+ margin-top : 20px;
+ background-color : rgb(100,100,100);
+ color : rgb(250,250,250);
+ padding : 20px;
+ width : 300px;
+ height : 250px;
+ overflow : auto;
+}
+.DeleteFrom{
+display : inline-block;
+ margin-top : 20px;
+ background-color : rgb(100,100,100);
+ color : rgb(250,250,250);
+ padding : 20px;
+ width : 300px;
+ overflow : auto;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding : 5px;
+}
+
+</style>
+<div class="AddDetails">
+<form onsubmit="return AddFormData(this)">
+  id  : <input type="text"  name="id" size="20"/><br/><br/>
+  Name  : <input type="text"  name="name" size="20"/><br/><br/>
+  Email  : <input type="text" name="email" size="20"/><br/><br/>
+  Mo.No  : <input type="text" name="mobileNo" size="20"/><br/><br/>
+  Age  :  <input type="number" name="age" size="5"/><br/><br/>
+  Address  :  <input type="text" name="address" size="20"/><br/><br/>
+  <button type="submit">Insert</button>
+</form>
+</div>
+
+<div class="ShowDetails">
+<table>
+<thead><tr><th>ID</th><th>Name</th><th>Email</th><th>Mo.No</th><th>Age</th><th>Address</th></tr><thead>
+<tbody id="TableBody">
+</tbody>
+</table>
+</div>
+
+<div class="Update">
+<form onsubmit="return Update(this)">
+<span style="color : red;">Select Id : </span> <input name="id" size="5"/><br/><br/>
+
+  Name  : <input type="text"  name="name" size="20"/><br/><br/>
+  Email  : <input type="text" name="email" size="20"/><br/><br/>
+  Mo.No  : <input type="text" name="mobileNo" size="20"/><br/><br/>
+  Age  :  <input type="number" name="age" size="5"/><br/><br/>
+  Address  :  <input type="text" name="address" size="20"/><br/><br/>
+  <button type="submit">Update</button>
+</form>
+</div>
+
+<div class="DeleteFrom">
+
+<form onsubmit="return DeleteRow(this)">
+<span style="color : red;">Select Id : </span> <input name="id" size="5"/><br/><br/>
+  <button type="submit">Delete</button>
+</form>
+</div>
+<script>
+
+</script>
+</body>
+</html>
