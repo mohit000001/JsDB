@@ -32,23 +32,23 @@ IntailizeJsDB() :
  - To create a new instance of JsDB. this function returns new instance of JsDB.
 
 CreateTable() : 
- - Parameters  = p1 - Table Name [String], p2 = Fields Name[Array].
+ - Parameters  = p1 - Table Name [String], p2 = Fields Name [Array].
 
 DeleteTable() :
  - Parameters  = p1 - Table Name [String].
 
 Insert() :
- - Parameters  = p1 - Table Name [String], p2 - Fields Name[Array], p2  - Fields Values[Array].
+ - Parameters  = p1 - Table Name [String], p2 - Fields Name [Array], p2  - Fields Values [Array].
 
 Select() : 
- - Parameters  = p1 - Table Name [String], p2 - Fields Name[Array], p3 - Condtions[string](optional).
+ - Parameters  = p1 - Table Name [String], p2 - Fields Name [Array], p3 - Condtions [string] (optional).
 
 Update() : 
- - Parameters  = p1 - Table Name [String], p2 - Fields Name[Array], p3 - Fields Values[Array], p4 - Condtions[string](optional).
+ - Parameters  = p1 - Table Name [String], p2 - Fields Name [Array], p3 - Fields Values [Array], p4 - Condtions [string] (optional).
 
 Delete() :
  - Note : if you call this method without Condition the entire table data will be deleted.
- - Parameters  = p1 - Table Name [String], p2 - Condtions[string](optional).
+ - Parameters  = p1 - Table Name [String], p2 - Condtions [string] (optional).
 
 # Usages : 
 
