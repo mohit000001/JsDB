@@ -69,6 +69,7 @@ LJsDB.DeleteTable("CanditateDetails");
  * Import and Export
  * Types for Fields
  * Enhencement in Conditions
+ * Default auto increment field for tables
  * Working with Nodejs
  * Binding in ReactJs
  * Binding in AngularJs
