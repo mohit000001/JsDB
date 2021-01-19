@@ -29,32 +29,32 @@ Important Notes :
    - example : "id=146 AND name=tonny OR age=14".
    
 IntailizeJsDB() : 
-To create a new instance of JsDB. this function returns new instance of JsDB.
+ - To create a new instance of JsDB. this function returns new instance of JsDB.
 
 CreateTable() : 
-Parameters  = p1 - Table Name [String], p2 = Fields Name[Array].
+ - Parameters  = p1 - Table Name [String], p2 = Fields Name[Array].
 
 DeleteTable() :
-Parameters  = p1 - Table Name [String].
+ - Parameters  = p1 - Table Name [String].
 
 Insert() :
-Parameters  = p1 - Table Name [String], p2 - Fields Name[Array], p2  - Fields Values[Array].
+ - Parameters  = p1 - Table Name [String], p2 - Fields Name[Array], p2  - Fields Values[Array].
 
 Select() : 
-Parameters  = p1 - Table Name [String], p2 - Fields Name[Array], p3 - Condtions[string](optional).
+ - Parameters  = p1 - Table Name [String], p2 - Fields Name[Array], p3 - Condtions[string](optional).
 
 Update() : 
-Parameters  = p1 - Table Name [String], p2 - Fields Name[Array], p3 - Fields Values[Array], p4 - Condtions[string](optional).
+ - Parameters  = p1 - Table Name [String], p2 - Fields Name[Array], p3 - Fields Values[Array], p4 - Condtions[string](optional).
 
 Delete() :
-Note - if you call this method without Condition the entire table data will be deleted.
-Parameters  = p1 - Table Name [String], p2 - Condtions[string](optional).
+ - Note : if you call this method without Condition the entire table data will be deleted.
+ - Parameters  = p1 - Table Name [String], p2 - Condtions[string](optional).
 
 # Usages : 
 
-Simply include JsDB.js file in your application.
+* Simply include JsDB.js file in your application.
 
-Following is a example of  use all methods of JsDB or one can visit Demo folder for a perfect UI example.
+* Following is a example of  use all methods of JsDB or one can visit Demo folder for a perfect UI example.
 
 const LJsDB = IntailizeJsDB();
 
